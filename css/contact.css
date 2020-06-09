@@ -78,7 +78,13 @@ input,
 textarea {
 	width: 40%;
 	margin-bottom: 1em;
-	padding: 0.5em 1em;
+	padding: 0.7em 1em;
+}
+
+input[type=submit] {
+	background: #FFCB16;
+	color: #fff;
+	border: none;
 }
 
 .contact-form input:nth-child(n + 5),
