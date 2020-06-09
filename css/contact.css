@@ -4,6 +4,15 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+	font-family: Nunito;
+	src: url(../fonts/Nunito.ttf);
+}
+
+@font-face {
+	font-family: Rubik;
+	src: url(../fonts/Rubik.ttf);
+}
 #contact {
 	background: linear-gradient(0deg, rgba(255, 203, 22, 0.27), rgba(255, 203, 22, 0.27)), url(../images_contact/top_background.png);
 	background-size: cover;
