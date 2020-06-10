@@ -1,0 +1,388 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    border:0;
+    font-size: 1em;
+    color: black;
+}
+
+.centered{
+    text-align: center;
+}
+
+
+/* specific stylings */
+
+/* top banner styles */
+.banner-holder{
+    padding-top:15% ;
+    height: 25%;
+    max-width: 100%;
+    background-image: url("../images/cloudybackground.jpg");
+    background-size: cover;
+    margin-bottom: 7%;
+}
+
+.text-holder{
+    padding-bottom: 15%;
+    background-image: linear-gradient( rgba(255, 255, 255, 0),rgb(255, 255, 255,0.999999) );
+}
+
+.text-holder h1{
+    font-size: 3.4rem;
+}
+
+
+/* rooms card styles */
+
+/* .rooms-holder{
+    padding-left: 4%;
+} */
+
+.rooms-holder{
+    padding: 0 6% !important;
+}
+
+
+.items-holder{
+    position: relative;
+    padding-left: 23% ;
+}
+
+.items-holder-right{
+    position: relative;
+    padding-right: 23% ;
+}
+
+.price{
+    position: absolute;
+    top: 88%;
+    left: 47%;
+    background-color: #FFCB16;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1% 5%;
+    border: 3px solid white;
+}
+
+.price-right{
+    position: absolute;
+    top: 88%;
+    right: 50%;
+    background-color: #FFCB16;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1% 5%;
+    border: 3px solid white;
+}
+
+.card-image {
+    width: 95%;
+    max-height: 35% !important;
+}
+
+.row{
+    margin-bottom: 27%;
+}
+
+.room-details{
+    position: absolute;
+    top: 120%;
+    left: 37%;
+}
+
+.room-details-right{
+    position: absolute;
+    top: 120%;
+    left: 15%;
+}
+
+.room-type{
+    font-size: 1.2rem;
+}
+
+.description{
+    font-size: 0.9rem;
+}
+
+.icons{
+    margin-right: 7%;
+}
+
+.btn-general{
+    background-color: #FFCB16;
+    color: white;
+    font-size: 1rem;
+    padding: 1% 18%;
+    border: 3px solid white;
+}
+
+.book-btn{
+    position: absolute;
+    top: 208%;
+    left: 33%;  
+}
+
+.book-btn-right{
+    position: absolute;
+    top: 208%;
+    left: 12%;  
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 1272px) {
+    .room-details-right{
+        position: absolute;
+        top: 123%;
+        left: 13%;
+    }
+}
+
+@media screen and (max-width: 1217px) {
+    
+    .row{
+        margin-bottom: 33%;
+    }
+
+    .room-details{
+        position: absolute;
+        top: 123%;
+        left: 34%;
+        margin-bottom: 3%;
+    }
+    
+    .room-details-right{
+        position: absolute;
+        top: 123%;
+        left: 11%;
+    }
+
+    .book-btn{
+        position: absolute;
+        top: 221%;
+        left: 32%;  
+    }
+    
+    .book-btn-right{
+        position: absolute;
+        top: 221%;
+        left: 10%;  
+    }
+}
+
+@media screen and (max-width: 1137px) {
+    
+   
+    .room-details{
+        left: 33%;
+    }
+    
+    .room-details-right{
+        left: 7%;
+    }
+
+    .book-btn{
+        left: 33%;  
+    }
+    
+    .book-btn-right{
+
+        left: 7%;  
+    }  
+}
+
+@media screen and (max-width: 1013px) {
+
+    .room-details{
+        left: 29%;
+    }
+    .room-details-right{
+        left: 2%;
+    }
+
+    .book-btn{
+        top: 228%;  
+    }
+    
+    .book-btn-right{
+        top: 228%;
+ 
+    }
+}
+
+@media screen and (max-width: 893px) {
+
+    .rooms-holder{
+        padding: 0  !important;
+    }
+
+    .description{
+        font-size: 0.7rem;
+    }
+
+    .room-details{
+        left: 35%;
+    }
+    .room-details-right{
+        left: 9%;
+    }
+
+    .book-btn{
+        top: 228%;  
+    }
+    
+    .book-btn-right{
+        top: 228%;
+ 
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .row{
+        margin-bottom: 0;
+    }
+
+    .rooms-holder{
+        padding: 0 2% !important;
+    }
+
+    .items-holder{
+        position: relative;
+        padding: 0% !important ;
+        text-align: center;
+    }
+    
+    .items-holder-right{
+        position: relative;
+        padding: 0% !important ;
+        text-align: center;
+    }
+
+    .card-image {
+        width: 85%;
+        max-height: 35% !important;
+    }
+
+    .card-holder{
+        margin-bottom: 40%;
+    }
+
+    .room-details{
+        top: 117%;
+        left: 34.4%;
+    }
+    
+    .room-details-right{
+        top: 117%;
+        left: 31.5%;
+    }
+
+    .book-btn{
+        top: 182%;
+        left: 25%;  
+    }
+    
+    .book-btn-right{
+        top: 182%;
+        left: 25%;  
+    }
+
+    .price{
+        top: 88%;
+        left: 39%;
+        
+    }
+    
+    .price-right{
+        top: 88%;
+        left: 36%;
+        width: 24%;
+    }
+}
+
+@media screen and (max-width: 697px) {
+
+    .room-details{
+        left: 33.5%;
+    }
+
+
+}
+
+@media screen and (max-width: 717px) {
+
+    .room-details-right{
+        left: 29%;
+    }
+
+
+}
+
+@media screen and (max-width: 647px) {
+
+    .room-details{
+        left: 32.4%;
+    }
+
+
+}
+
+@media screen and (max-width: 617px) {
+
+    .price-right{
+        top: 88%;
+        left: 36%;
+        width: 28%;
+    }
+
+    .text-holder h1{
+        font-size: 2.7rem;
+    }
+
+
+}
+
+@media screen and (max-width: 577px) {
+
+    .room-details{
+        left: 31.4%;
+    }
+    .room-details-right{
+        left: 27%;
+    }
+
+    .book-btn{
+        top: 195%;
+        left: 25%; 
+        margin-bottom: 3%; 
+    }
+    
+    .book-btn-right{
+        top: 195%;
+        left: 25%;  
+    }
+
+    .card-holder{
+        margin-bottom: 45%;
+    }
+
+
+}
+
+@media screen and (max-width: 547px) {
+
+    .room-details{
+        left: 30%;
+    }
+    /* .room-details-right{
+        left: 27%;
+    } */
+
+
+}
+
+
