@@ -367,7 +367,7 @@ body {
   .section__header .navbar-nav {
     display: none;
     position: fixed;
-    top: 0;
+    top: 60px;
     left: 0;
     background-color: #fff;
     height: 100vh;
@@ -377,7 +377,12 @@ body {
 
   .section__header .navbar-nav ul {
     flex-direction: column;
-    /* margin-top: 2rem; */
+    margin-top: 2rem;
+    align-items: flex-start !important;
+  }
+
+  .nav-link {
+    padding: 1.5rem 1rem;
   }
 
   .section__header .navbar .toggle-btn-container {
@@ -429,3 +434,4 @@ body {
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
+
