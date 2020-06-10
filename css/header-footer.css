@@ -47,6 +47,11 @@ body {
   font-weight: 600;
 }
 
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
 .section__header .navbar .navbar-nav ul .nav-list .nav-link:hover {
   color: #ffcb16;
 }
