@@ -93,10 +93,12 @@ body {
 }
 
 .section__footer .footer .footer-top .hng-hotels-brief .footer-logo {
+  text-align: left;
   margin-bottom: 3rem;
 }
 
 .section__footer .footer .footer-top .hng-hotels-brief p {
+  text-align: left;
   font-size: 2.2rem;
   font-weight: 600;
 }
