@@ -39,7 +39,7 @@ body{
     padding-left: 4%;
 } */
 
-.rooms-holder{
+/* .rooms-holder{
     padding: 0 6% !important;
 }
 
@@ -127,12 +127,12 @@ body{
     position: absolute;
     top: 208%;
     left: 12%;  
-}
+} */
 
 
 /* media queries */
 
-@media screen and (max-width: 1272px) {
+/* @media screen and (max-width: 1272px) {
     .room-details-right{
         position: absolute;
         top: 123%;
@@ -382,7 +382,5 @@ body{
         left: 27%;
     } */
 
-
-}
-
-
+/* 
+} */

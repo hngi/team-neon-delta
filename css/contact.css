@@ -30,13 +30,7 @@
   align-items: center;
   justify-content: center;
 }
-.overview h1 {
-  line-height: 76px;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 300;
-  font-size: 3rem;
-  letter-spacing: 0.7rem;
-}
+
 
 
 
@@ -52,8 +46,7 @@
 	line-height: 76px;
 	text-align: center;
 	letter-spacing: 0.002em;
-  
-    padding: 2em 0;
+  padding: 2em 0;
 }
 
 .helper-info {
