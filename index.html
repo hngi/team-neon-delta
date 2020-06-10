@@ -15,26 +15,12 @@
       integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
       crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/header-footer.css" />
     <link href="./css/style.css" rel="stylesheet"/>
     <link href="./css/landing-page.css" rel="stylesheet"/>
     
     <title>HNG HOTEL - HOME</title>
-
-    <!--Testimonial Slide-->
-    <script type="text/javascript"> 
-      $(window).load(function() { 
-          $(".carousel .item").each(function() { 
-              var i = $(this).next(); 
-              i.length || (i = $(this).siblings(":first")), 
-                i.children(":first-child").clone().appendTo($(this)); 
-              
-              for (var n = 0; n < 1; n++)(i = i.next()).length || 
-                (i = $(this).siblings(":first")), 
-                i.children(":first-child").clone().appendTo($(this)) 
-          }) 
-      }); 
-    </script> 
   </head>
   <body>
     <header class="section__header">
@@ -44,7 +30,7 @@
         </div>
         <div class="navbar-nav">
           <ul>
-            <li class="nav-list"><a href="#" class="nav-link">home</a></li>
+            <li class="nav-list"><a href="#" class="nav-link" style="color:#ffcb16">home</a></li>
             <li class="nav-list">
               <a href="./contact.html" class="nav-link">contact us</a>
             </li>
@@ -56,7 +42,7 @@
         </div>
         <div class="toggle-btn-container">
           <button class="toggle-btn">
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars" style="color: black; position: absolute; right: 30px; top: 19px"></i>
           </button>
         </div>
       </div>
@@ -103,7 +89,7 @@
       </div>
     
       <div class="room-apartment-rates">
-        <h1>Room & Apartments</h1>
+        <h1 style="margin-bottom: 40px; font-size: 4.5rem;margin-top:50px; text-align: center;">Room & Apartments</h1>
         <div class="room-apartment-rates-header">
           <a class="active">STANDARD</a>
           <a>DELUXE</a>
@@ -113,84 +99,81 @@
           <div class="rate">
             <img src="./images/gallery5.jpg">
             <div class="rate-content">
-              <button>N20,000</button>
+              <button style="font-size: 3rem; padding: 10px 40px">N20,000</button>
               <p style="font-size: 24px;"><span>Standard</span> - Single bed</p>
               <p>Designed for practicality and comfort, these contemporary-styled rooms comes with a view.</p>
               <div class="rate-content-icon">
-                <img src="./images/Vector1.png">
-                <img src="./images/Vector2.png">
-                <img src="./images/Vector3.png">
-              </div>
+                <img src="images/wifi.svg" alt="wifi image " class="icons">
+                <img  src="images/human.svg" alt="wifi image">
+                <img class="icons" src="images/one-three.svg" alt="wifi image">
+                <img class="icons" src="images/swimming.svg" alt="wifi image">
+              </div> 
             </div>
           </div>
           <div class="rate">
             <img src="./images/gallery7.jpg">
             <div class="rate-content">
-              <button>N35,000</button>
+              <button style="font-size: 3rem; padding: 10px 40px">N35,000</button>
               <p style="font-size: 24px;"><span>Standard</span> - luxury</p>
               <p>Designed for practicality and comfort, these contemporary-styled rooms comes with a view.</p>
               <div class="rate-content-icon">
-                <img src="./images/Vector1.png">
-                <img src="./images/Vector2.png">
-                <img src="./images/Vector3.png">
-                <img src="./images/Vector4.png">
-              </div>
+                <img src="images/wifi.svg" alt="wifi image " class="icons">
+                <img  src="images/human.svg" alt="wifi image">
+                <img class="icons" src="images/one-three.svg" alt="wifi image">
+                <img class="icons" src="images/swimming.svg" alt="wifi image">
+              </div> 
             </div>
           </div>
         </div>
-        <button><a>Check Rates</a></button>
+        <button class="check-rates"><a href="./rates.html">Check Rates</a></button>
       </div>
-      <div class="carousel slide" id="myCarousel"> 
-        <div class="carousel-inner"> 
-          <h1> Testimonials</h1>
-            <div class="item active"> 
-                <div class="col-sm-4"> 
-                  <img src="./images/me.jpg">
-                  <p class="name">Ahmad Yusuf</p>
-                  <p>Sitting on the high rocks of 
-                    the Olumo rock, NG Hotel offers a sublime slice 
-                    of modern minimalism, with an emphasis on elegant 
-                    simplicity and first-rate food, An airy refuge, our boutique 23-room hotel.
-                  </p>
-                </div> 
-            </div> 
-            <div class="item"> 
-                <div class="col-sm-4"> 
-                  <img src="./images/me.jpg">
-                  <p class="name">Ahmad Yusuf</p>
-                  <p>Sitting on the high rocks of 
-                    the Olumo rock, NG Hotel offers a sublime slice 
-                    of modern minimalism, with an emphasis on elegant 
-                    simplicity and first-rate food, An airy refuge, our boutique 23-room hotel.
-                  </p>
-                </div> 
-            </div> 
-            <div class="item"> 
-                <div class="col-sm-4"> 
-                  <img src="./images/me.jpg">
-                  <p class="name">Ahmad Yusuf</p>
-                  <p>Sitting on the high rocks of 
-                    the Olumo rock, NG Hotel offers a sublime slice 
-                    of modern minimalism, with an emphasis on elegant 
-                    simplicity and first-rate food, An airy refuge, our boutique 23-room hotel.
-                  </p>
-                </div> 
-            </div> 
-        </div> 
-        <div class="controls">
-          
+
+      <h1 style="margin-bottom: 40px; font-size: 4rem;"> Testimonials</h1>
+      <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+             
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="testimonial4_slide">
+                    <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" style="margin-bottom: 20px"/>
+                    <h4 style="font-weight: bold;">Richard Saseun</h4>
+                    <p style="font-weight: lighter;">Sitting on the high rocks of 
+                      the Olumo rock, NG Hotel offers a sublime slice 
+                      of modern minimalism, with an emphasis on elegant 
+                      simplicity and first-rate food, An airy refuge, our boutique 23-room hotel. 
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonial4_slide">
+                    <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" style="margin-bottom: 20px"/>
+                    <h4 style="font-weight: bold;">Avram Grant</h4>
+                    <p style="font-weight: lighter;">Sitting on the high rocks of 
+                      the Olumo rock, NG Hotel offers a sublime slice 
+                      of modern minimalism, with an emphasis on elegant 
+                      simplicity and first-rate food, An airy refuge, our boutique 23-room hotel.</p>
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonial4_slide">
+                    <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" style="margin-bottom: 20px"/>
+                    <h4 style="font-weight: bold;">Sway Lee</h4>
+                    <p style="font-weight: lighter;">Sitting on the high rocks of 
+                      the Olumo rock, NG Hotel offers a sublime slice 
+                      of modern minimalism, with an emphasis on elegant 
+                      simplicity and first-rate food, An airy refuge, our boutique 23-room hotel.</p>
+                    
+                </div>
+            </div>
         </div>
-          <a class="left carousel-control"
-              href="#myCarousel"
-              data-slide="prev"> 
-            <span class="entypo-left-thin"></span> 
-          </a> 
-          <a class="right carousel-control" 
-              href="#myCarousel" 
-              data-slide="next"> 
-              <span class="entypo-right-thin"></span> 
-            </a> 
-      </div> 
+        <a class="carousel-control-prev" href="#testimonial4" data-slide="prev" style=>
+            <span class="entypo-left-thin"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+            <span class="entypo-right-thin"></span> 
+        </a>
+      </div>
+    </div>
 
     </main>
 
