@@ -16,8 +16,25 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/header-footer.css" />
-    <link rel="stylesheet" href="./css/landing-page.css"/>
+    <link href="./css/style.css" rel="stylesheet"/>
+    <link href="./css/landing-page.css"/>
+    
     <title>HNG HOTEL - HOME</title>
+
+    <!--Testimonial Slide-->
+    <script type="text/javascript"> 
+      $(window).load(function() { 
+          $(".carousel .item").each(function() { 
+              var i = $(this).next(); 
+              i.length || (i = $(this).siblings(":first")), 
+                i.children(":first-child").clone().appendTo($(this)); 
+              
+              for (var n = 0; n < 1; n++)(i = i.next()).length || 
+                (i = $(this).siblings(":first")), 
+                i.children(":first-child").clone().appendTo($(this)) 
+          }) 
+      }); 
+    </script> 
   </head>
   <body>
     <header class="section__header">
@@ -171,6 +188,7 @@
             <span class="entypo-right-thin"></span> 
           </a> 
     </div> 
+  
 
     <footer class="section__footer">
       <div class="footer">
