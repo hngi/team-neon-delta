@@ -1,28 +1,28 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 @font-face {
-  font-family: Nunito;
-  src: url(../fonts/Nunito.ttf);
+	font-family: Nunito;
+	src: url(../fonts/Nunito.ttf);
 }
 
+@font-face {
+	font-family: Rubik;
+	src: url(../fonts/Rubik.ttf);
+}
+/* #contact {
+	background: linear-gradient(0deg, rgba(255, 203, 22, 0.27), rgba(255, 203, 22, 0.27)), url(../images_contact/top_background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+} */
 
 .overview {
-  height: 60vh;
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 203, 22, 0.3),
-      rgba(255, 255, 255, 1) 95%
-    ),
-    url('../Images/cloudyBackground.jpg');
-
+  width: 100vw;
+  background: linear-gradient(to bottom, rgba(255, 203, 22, 0.3), rgba(255, 255, 255, 1) 95%), url("../Images/cloudyBackground.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,133 +32,90 @@ html {
 }
 
 
-.contact-wrapper {
-  /* position: relative; */
-  /* top: 2em; */
-}
-.contact-wrapper h1 {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 6rem;
-  line-height: 76px;
-  text-align: center;
-  letter-spacing: 0.002em;
-  padding: 2rem 0;
 
+
+/* .contact-wrapper {
+	position: relative;
+	top: 2em;
+} */
+.contact-wrapper h1 {
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 64px;
+	line-height: 76px;
+	text-align: center;
+	letter-spacing: 0.002em;
+  padding: 2em 0;
 }
 
 .helper-info {
-  background: #fff;
-  padding-bottom: 3rem;
-  text-align: center;
+	background: #fff;
+	padding-bottom: 3em;
 }
 
 .location h2,
 .helper-info h2 {
-  text-align: center;
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 4rem;
-  line-height: 65px;
-  text-align: center;
-  margin-bottom: 3rem;
+	text-align: center;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 65px;
+	text-align: center;
+	letter-spacing: 0.002em;
 }
 
 .helper-info p {
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1.6rem;
-  line-height: 25px;
-  text-align: center;
-  width: 75%;
-  margin: 0 auto;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: 0.002em;
+	width: 55%;
+	margin: 0 auto;
 }
 
 .location,
 .contact-form {
-  background: #fff;
+	background: #fff;
+	padding: 2em;
 }
 
-.contact-form {
-  margin-bottom: 9rem;
+.contact-form label{
+	display: none;
 }
 
-.contact-form .wrapper {
-  width: 70%;
-  margin: 0 auto;
-
+.contact-form > .wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 70%;
+	margin: 0 auto;
 }
 
 input,
 textarea {
-
-  width: 49%;
-  margin-bottom: 1em;
-  padding: 0.7em 1em;
-  border: 1.5px solid #aaa;
-
+	width: 49%;
+	margin-bottom: 1em;
+	padding: 0.7em 1em;
 }
 
-textarea {
-  resize: none;
-}
-
-input[type='submit'] {
-  background: #ffcb16;
-  color: #fff;
-  border: none;
-  width: 100%;
-}
-
-.subject-input {
-  width: 100%;
+input[type=submit] {
+	background: #FFCB16;
+	color: #fff;
+	border: none;
 }
 
 .contact-form input:nth-child(n + 5),
 textarea {
-  width: 100%;
+	width: 100%;
 }
 
 .location iframe {
-
-  width: 100%;
-  margin-top: 1.5em;
-}
-
-@media screen and (max-width: 600px) {
-  .flex {
-    display: flex;
-    flex-flow: column;
-  }
-
-  input {
-    width: 100%;
-  }
-
-  .contact-form .wrapper {
-    width: 85%;
-  }
-
-  .helper-info p {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .overview h1 {
-    font-size: 4rem;
-  }
-
-  .helper-info h2 {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .location h2 {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
-  }
+	width: 100%;
+	margin-top: 1.5em;
 }
 
