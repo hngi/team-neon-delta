@@ -2,6 +2,7 @@
 @import url(https://weloveiconfonts.com/api/?family=entypo);
 
 /* entypo */
+
 [class*='entypo-']:before {
   font-family: 'entypo', sans-serif;
   color: #000000;
@@ -158,11 +159,13 @@ button a {
   margin: 71.5px auto;
   width: 600px;
   max-width: 100%;
+
 }
 /* .room-apartment-rates-header a {
     margin: 10px 20px;
 } */
 .room-apartment-rates-header .active {
+
   color: #ffcb16 !important;
 }
 .rate {
@@ -236,6 +239,7 @@ button a {
   position: relative;
   -webkit-transition: none ease-in-out left !important ;
   transition: none ease-in-out left !important;
+
 }
 
 .check-rates:hover {
@@ -246,7 +250,9 @@ button a {
   position: absolute;
   top: -0 !important;
   left: 0;
+
   content: ' ';
+
   background: url(img/testimonial.bg-top.png);
   background-size: 100% 100px;
   width: 100%;
@@ -262,6 +268,7 @@ button a {
   padding-top: 50px;
   padding-bottom: 50px;
   background-position: center;
+
   background-size: cover;
 }
 #testimonial4 .carousel-inner:hover {
@@ -393,6 +400,7 @@ button a {
   padding: 20px;
   position: relative;
   text-align: center;
+=======
 }
 .testimonial4_slide img {
   top: 0;
@@ -420,6 +428,7 @@ button a {
   margin: 40px 0 20px 0;
 }
 .testimonial4_slide h4 {
+
   color: black;
   font-size: 22px;
 }
@@ -429,6 +438,7 @@ button a {
 }
 .testimonial .carousel-control-next-icon,
 .testimonial .carousel-control-prev-icon {
+
   width: 35px;
   height: 35px;
 }
@@ -477,6 +487,7 @@ button a {
   }
 }
 
+
 @media (max-width: 500px) {
   .room-apartment-rates-header {
     flex-direction: column;
@@ -489,9 +500,11 @@ button a {
   }
 
   .about-text {
+
     padding: 80px 0 20px 20px;
     color: #000000;
     text-align: center;
     letter-spacing: 0.2px;
   }
 }
+

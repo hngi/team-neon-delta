@@ -4,7 +4,9 @@
 *::before {
   margin: 0;
   padding: 0;
+
   box-sizing: border-box;
+
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -55,6 +57,7 @@ body {
 .section__header .navbar .navbar-nav ul .nav-list .nav-link:hover {
   color: #ffcb16;
 }
+
 
 .section__header .navbar .toggle-btn-container {
   display: none;
@@ -349,7 +352,9 @@ body {
   }
 
   .section__footer .footer .footer-top .footer-gallery .gallery-head {
+
     text-align: left !important;
+
   }
 
   .footer-bottom {
@@ -365,13 +370,16 @@ body {
   .section__header .navbar-nav {
     display: none;
     position: fixed;
+
     top: 0;
+
     left: 0;
     background-color: #fff;
     height: 100vh;
     width: 45vw;
     z-index: 100;
   }
+
 
   /* .navbar-nav {
     display: flex;
@@ -382,6 +390,7 @@ body {
   .section__header .navbar-nav ul {
     flex-direction: column;
     /* margin-top: 2rem; */
+
   }
 
   .section__header .navbar .toggle-btn-container {
@@ -390,12 +399,16 @@ body {
 
   .section__header .navbar .toggle-btn-container button {
     background-color: transparent;
+
     border: 0;
+
   }
 
   .section__header .navbar .toggle-btn-container button i {
     font-size: 2rem;
+
     color: #000;
+
   }
 
   .section__header .navbar .toggle-btn-container button:focus {
@@ -420,7 +433,9 @@ body {
     .footer-top
     .stay-in-touch-container
     .stay-in-touch-header {
+
     text-align: left !important;
+
   }
 }
 
@@ -434,3 +449,4 @@ body {
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
+
